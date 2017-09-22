@@ -25,7 +25,7 @@ namespace androgee_csharp
             string token = System.Environment.GetEnvironmentVariable("NUEVO");
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
-            await _client.SetGameAsync("Duke3D");
+            await _client.SetGameAsync("With Androgee's Career");
 
             // Block this task until the program is closed.
             await Task.Delay(-1);
